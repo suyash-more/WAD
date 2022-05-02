@@ -16,7 +16,7 @@ $headers = 'MIME-Version: 1.0' . "rn";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "rn";
 $headers .= 'From:' . $email. "rn"; // Sender's Email
 $headers .= 'Cc:' . $email. "rn"; // Carbon copy to Sender
-$template = '<div style="padding:50px; color:white;">Hello ' . $name . ',<br/>'
+$template = '<div style="padding:50px; color:white;">Hello  ' . $name . ',<br/>'
 . '<br/>Thank you...! For Contacting Us.<br/><br/>'
 . 'Name:' . $name . '<br/>'
 . 'Email:' . $email . '<br/>'
