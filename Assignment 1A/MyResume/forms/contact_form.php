@@ -29,7 +29,7 @@ $sendmessage = '<div style="background-color:#7E7E7E; color:white">' . $template
 // Message lines should not exceed 70 characters (PHP rule), so wrap it.
 $sendmessage = wordwrap($sendmessage, 70);
 // Send mail by PHP Mail Function.
-mail("shivendrabhonsle28@gmail.com", $subject1, $sendmessage, $headers);
+mail("suyashmore789@gmail.com", $subject1, $sendmessage, $headers);
 echo "Your Query has been received, We will contact you soon.";
 }
 } else {
