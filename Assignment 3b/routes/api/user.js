@@ -14,6 +14,7 @@ router.post("/", async (req, res) => {
         return res.status(200).json(user)
     } catch (error) {
         console.log(error.message);
+        return res.status(400).send("Error Occured")
     }
 })
 
@@ -32,6 +33,7 @@ router.get("/", async (req, res) => {
         return res.json(users)
     } catch (error) {
         console.log(error);
+        return res.status(400).send("Error Occured")
     }
 })
 
@@ -56,6 +58,7 @@ router.put("/:id", async (req, res) => {
 
     } catch (error) {
         console.log(error)
+        return res.status(400).send("Error Occured")
     }
 })
 
@@ -75,6 +78,7 @@ router.delete("/:id", async (req, res) => {
 
     } catch (error) {
         console.log(error)
+        return res.status(400).send("Error Occured")
     }
 })
 
